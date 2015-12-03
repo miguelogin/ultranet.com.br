@@ -1,0 +1,64 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ultra NET - Contato</title>
+<style type="text/css">
+body {
+	background-image: url(Imagens/Background.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: #DFEBFF;
+}
+body,td,th {
+	font-style: normal;
+	font-size: 2px;
+}
+</style>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body>
+<center>
+  <img src="imagens/logo.png" width="1096" height="159"  alt=""/>
+</center>
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+  <td height="50"><div align="center"><img src="imagens/botoes/normal/1.png" width="178" height="84"  alt=""/><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('home','','imagens/botoes/selecionados/1_04.png',1)"><img src="imagens/botoes/normal/2.png" alt="" width="126" height="84" id="home"></a><a href="planos.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Planos','','imagens/botoes/selecionados/1_05.png',1)"><img src="imagens/botoes/normal/3.png" alt="" width="174" height="84" id="Planos"></a><a href="quem_somos.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('QUEM SOMOS','','imagens/botoes/selecionados/1_06.png',1)"><img src="imagens/botoes/normal/4.png" alt="" width="234" height="84" id="QUEM SOMOS"></a><a href="contato.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('CONTATO','','imagens/botoes/selecionados/1_07.png',1)"><img src="imagens/botoes/normal/5.png" alt="" width="177" height="84" id="CONTATO"></a><img src="imagens/botoes/normal/6.png" width="192" height="84"  alt=""/></div></tr>
+  <tr>
+    <td height="719"><center>
+      <p><img src="imagens/contato.png"  alt="" width="1082" height="748" usemap="#Map"/></p></center>
+  </tr>
+  <tr>
+    <td height="3">    <div align="center"></div></tr>
+  <tr>
+  <td height="100"><a href="contato.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Assine agora','','imagens/assine_after.png',1)"><img src="imagens/assine_before.png" alt="" width="1366" height="100" id="Assine agora"></a></tr>
+</table>
+<p><img src="imagens/blank.png" width="1366" height="56"  alt=""/></p>
+<p><img src="imagens/blank.png" width="1366" height="48"  alt=""/></p>
+
+<map name="Map"><area shape="circle" coords="291,316,136" href="mailto:ultranet@ultranet.com.br">
+  <area shape="circle" coords="793,314,136" href="tel:5505137416669">
+</map>
+</body>
+</html>
